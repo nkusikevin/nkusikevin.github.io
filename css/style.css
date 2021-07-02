@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #2c302d;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.card {
+	width: 300px;
+	max-height: 300px;
+	margin: 20px auto;
+	text-align: center;
+	background: #242625;
+	border-radius: 10px;
+}
+
+.card__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3rem;
+	color: white;
+}
+
+.card__header {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 40px auto;
+}
+
+.card__button {
+	padding: 10px;
+	border-radius: 50px;
+	background: #1f75c4;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	margin: 50px auto;
+	width: 50%;
+}
+
+.card__button a {
+	text-decoration: none;
+	color: white;
+}
+
+/* user's post section */
+
+.back{
+	display: block;
+}
+.back a{
+	
+	text-decoration: none;
+	color: white;
+	background-color: teal;
+	padding: 1.5rem;
+	border-radius: 5px;
+	margin: 5rem;
+	width: 5rem;
+	cursor: pointer;
+}
+.allPost{
+	margin: 0 auto;
+}
+.postContainer{
+	background-color: steelblue;
+	border-radius: 5px;
+	margin-top: 3rem;
+}
+
+.postContainer .title{
+	color: white;
+	padding: 1.5rem;
+	width: 68%;
+}
+
+.postContainer .body{
+	color: whitesmoke;
+	padding: 1rem;
+}
+ .postOwner{
+	 margin: 3rem auto;
+ }
